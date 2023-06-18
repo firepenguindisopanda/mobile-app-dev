@@ -1,5 +1,13 @@
 # Project 0
 
+## Current Bug
+
+When deleting a todo item the next item added is given the same number as the last item added.
+for example if i add 4 items it would have item 1, item 2, item 3, item 4. If i delete item 2 and then add a new item, the new item would be item 4.
+So there would be two item 4 rendered on the list
+
+----
+
 The goal of this project is to practice JavaScript and its paradigms by creating
 a TODO app. This app should be able to add TODOs and track the number of total
 TODOs as well as the number of unchecked TODOs.
